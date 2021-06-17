@@ -1,0 +1,66 @@
+/*ESTILOS DA PÁGINA INDEX.HTML*/
+
+
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row  ;
+    justify-content:center ;
+    align-items: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+#menu li a {
+    text-decoration: none;
+    color:rgb(59, 57, 57);
+    font-size: 20px;
+}
+#menu li a:hover {
+    color: rgb(0, 0, 0);
+}
+.p-30{
+    padding: 30px;
+}
+.wh{
+    width: 200px;
+    height: 200px;
+}
+.tamanho-social{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.borda{
+    padding: 5px;
+    background-color: DarkSalmon;
+}
+
+.paginaToda{
+    margin: 50px;;
+    padding: 5px;
+    background-color:lightgray;
+}
+
+
+/*ESTILOS DA PÁGINA CONTATO.HTML*/
+
+.ml-50{
+    margin-left: 50px;
+}
+#contato{
+    
+}
