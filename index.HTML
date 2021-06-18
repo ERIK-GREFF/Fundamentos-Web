@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="PT-br">
+    <meta charset="pt-br">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
@@ -22,9 +22,9 @@
 
     <article class="paginaToda">  
 
-    <h1 class="center ">MEU PITCH</h1>
+    <h1 class="center MP">MEU PITCH</h1>
    <div class="container">
-    <img class= "wh "  src="assets/img/MinhaFoto.jpg" alt="Foto do criador com sua namorada."> 
+    <img class= "wh" id="foto"  src="assets/img/MinhaFoto.jpg" alt="Foto do criador com sua namorada."  onmousemove="fotoZoom()" onmouseout="fotoNormal()" > 
     </div>
     <div class="container ">
         
@@ -64,7 +64,7 @@ allowfullscreen>
 </div>
 </article>
 <footer>
-
+    <div class="copy">
     <div class="container borda">
 
         <a href="https://www.instagram.com/erik_greff/">
@@ -79,11 +79,12 @@ allowfullscreen>
         </a>
 
     </div>
-
-    <p class="center">
+    
+    <p class="center bd">
    Todos os direitos reservados: Erik Greff &copy;
    </p>
+    </div>
 </footer>
-
+<script src="assets/JS/script.js"></script>
 </body>
 </html>

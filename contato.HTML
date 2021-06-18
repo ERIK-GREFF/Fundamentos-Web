@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="PT-br">
+    <meta charset="pt-br">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
@@ -24,18 +24,18 @@
         <div>
             <form>
                 <label for="nome">Nome</label>  <br>
-                <input type="text"  id="nome">
+                <input type="text"  id="nome" onkeyup = "validaNome()" >
+                <div id="txtNome"></div>
                 <br>
+                <label for="email">E-mail</label>  <br>
+                <input type="email"  id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
                 <br>
-                <label for="email">e-mail</label>   <br>
-                <input type="email"  id="email">
+                <label for="assunto">Assunto</label>  <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()" ></textarea>
+                <div id="txtAssunto"></div>
                 <br>
-                <br>
-                <label for="assunto">assunto</label>    <br>
-                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-                <br>
-                <br>
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </form>
 
         </div>
@@ -63,6 +63,9 @@
    Todos os direitos reservados: Erik Greff &copy;
    </p>
 </footer>
+<script src="assets/JS/script.js">
 
+
+</script>
 </body>
 </html>

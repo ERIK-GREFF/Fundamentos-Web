@@ -48,10 +48,15 @@
     padding: 5px;
     background-color: DarkSalmon;
 }
-
+.copy{
+    background-color: DarkSalmon;
+}
+.bd{
+    padding-bottom: 10px;
+}
 .paginaToda{
-    margin: 50px;;
-    padding: 5px;
+    margin: 50px;
+   
     background-color:lightgray;
 }
 
@@ -60,7 +65,4 @@
 
 .ml-50{
     margin-left: 50px;
-}
-#contato{
-    
 }
